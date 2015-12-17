@@ -23,9 +23,9 @@ WORKDIR "/opt"
 
 RUN apt-get update -y && \
     apt-get install -y curl && \
-    apt-get install git && \
-    apt-get install build-essential&& \
-    apt-get install libssl-dev && \
+    apt-get install -y git && \
+    apt-get install -y build-essential&& \
+    apt-get install -y libssl-dev && \
 
     # install 32-bit dependencies require by the android sdk
     dpkg --add-architecture i386 && \
