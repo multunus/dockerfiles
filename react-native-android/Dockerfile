@@ -7,7 +7,8 @@ RUN apt-get update -y && \
     apt-get install -y curl && \
     apt-get install -y git && \
     apt-get install -y build-essential&& \
-    apt-get install -y libssl-dev
+    apt-get install -y libssl-dev && \
+    apt-get install -y python python-dev python-distribute python-pip
 
 # set node build variables
 ENV NVM_DIR /usr/local/.nvm
