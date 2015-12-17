@@ -32,6 +32,9 @@ RUN echo "source ${NVM_DIR}/nvm.sh" > $HOME/.bashrc && \
 ENV NODE_PATH $NVM_DIR/versions/node/v$NODE_VERSION/lib/node_modules
 ENV PATH      $NVM_DIR/versions/node/v$NODE_VERSION/bin:$PATH
 
+# install react-native-cli
+RUN npm install -g react-native-cli
+
 RUN which android
 RUN which adb
 RUN node --version
