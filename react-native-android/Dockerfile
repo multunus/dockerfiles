@@ -38,6 +38,6 @@ RUN node --version
 RUN npm --version
 
 # Clean up
-rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* && \
-apt-get autoremove -y && \
-apt-get clean
+RUN rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* && \
+    apt-get autoremove -y && \
+    apt-get clean
