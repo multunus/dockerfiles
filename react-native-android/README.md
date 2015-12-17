@@ -1,4 +1,4 @@
-[![Docker Pulls](https://img.shields.io/docker/pulls/peterlazar1993/react-native-android.svg)]()
+[![Docker Pulls](https://img.shields.io/docker/pulls/peterlazar1993/react-native-android.svg?style=flat-square)](https://hub.docker.com/r/peterlazar1993/react-native-android/)
 [![](https://badge.imagelayers.io/peterlazar1993/react-native-android:latest.svg)](https://imagelayers.io/?images=peterlazar1993/react-native-android:latest 'Get your own badge on imagelayers.io')
 
 # React Native Android
@@ -13,6 +13,7 @@
 - node 5.2.0
 - npm 3.3.12
 - react-native-cli 0.1.7
+
 ----
 ### Pull from Docker Hub
 ```
