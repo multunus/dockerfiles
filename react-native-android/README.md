@@ -22,10 +22,10 @@ docker pull peterlazar1993/react-native-android:latest
 
 ### Run image
 ```
-docker run -it beevelop/android bash
+docker run -it peterlazar1993/react-native-android bash
 ```
 
 ### Use as base image
 ```Dockerfile
-FROM beevelop/android:latest
+FROM peterlazar1993/react-native-android:latest
 ```
